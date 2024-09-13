@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet/main.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/logo.webp" alt="logo">
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./doctors2.html">Doctors</a></li>
+                <li><a href="./appointments.html">Appointment</a></li>
+                <li><a href="./pharmacy.html">Pharmacy</a></li>
+                <li><a href="./register.html"><button class="btn-reserve">Sign in/Sign up</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Rerservation Form</h2>
+            <form>
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" name="full-name" required>
+      
+              <label for="contact-no">Contact No:</label>
+              <input type="text" id="contact-no" name="contact-no" required>
+      
+              <label for="date-of-birth">Date of Birth:</label>
+              <input type="date" id="date-of-birth" name="date-of-birth" required>
+      
+              <label for="date-and-time">Date and Time:</label>
+              <input type="datetime-local" id="date-and-time" name="date-and-time" required>
+      
+              <label for="required-items">Required Items:</label>
+              <input type="text" id="required-items" name="required-items" required>
+      
+              <label for="branch">Branch:</label>
+              <select id="branch" name="branch" required>
+                <option value="">Select Branch</option>
+                <option value="branch1">Branch Colombo</option>
+                <option value="branch2">Branch Gampaha</option>
+                <option value="branch3">Branch Kandy</option>
+                <option value="branch4">Branch Anuradhapura</option>
+                <option value="branch5">Branch Galle</option>
+              </select>
+      
+              <label for="payment-method">Payment Method:</label>
+              <input type="radio" id="payment-card" name="payment" value="card" >
+                <label for="payment-card">Card</label>
+
+                <input type="radio" id="payment-cash" name="payment" value="Cash">
+                <label for="payment-cash">Cash</label>
+                
+                <div class="confirmation-container">
+                    <label for="email-confirmation">E-Mail Confirmation:</label>
+                    <input type="checkbox" id="email-confirmation" name="email-confirmation">
+                  
+                    <label for="notification-reminder">Notification Reminder:</label>
+                    <input type="checkbox" id="notification-reminder" name="notification-reminder">
+                  </div>
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+               
+                <p>Hope is a good thing, maybe the best of things</p>
+                <ul>
+                    <li><a href="./about_us.html">About Us</a></li>
+                    <li><a href="./team.html">About Us: Team</a></li>
+                    <li><a href="./awards.html">Awards</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Contact us</h3>
+                <p>Contact no: 714568</p>
+                <p>email: straphael@hope.lk</p>
+            </div>
+            <div class="footer-content">
+                <h3>Customers</h3>
+                <ul>
+                    <li><a href="./services.html">Services</a></li> 
+                    <li><a href="./doctors.html">Doctors</a></li>
+                    <li><a href="./branches.html">Branches</a></li>
+                    <li><a href="./appointments.html">Appointments</a></li>
+                    <li><a href="./pharmacy.html">Pharmacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="./images/facebook.webp" alt="">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/"><img src="./images/instagram.webp" alt="">Instagram</a></li>
+                    <li><a href="https://x.com/"><img src="./images/twitter.webp" alt="">Twitter</a></li>
+                    <li><a href="https://www.youtube.com"><img src="./images/youtube.webp" alt="">You Tube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
